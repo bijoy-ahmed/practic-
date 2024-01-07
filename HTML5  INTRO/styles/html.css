@@ -1,0 +1,40 @@
+/* nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: lightgreen;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+} */
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: rgb(255, 0, 0);
+}
+nav li >a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* nested menu styles */
+ nav li .dropdrown{
+    display: none;
+    position: absolute;
+    background-color: bisque;
+    padding-left: 10px 2o;
+ }
+ nav li:hover > .dropdrown{
+    display: block;
+ }

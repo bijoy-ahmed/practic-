@@ -1,0 +1,27 @@
+h3{
+    color: brown;
+    font-size: 30px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bloge{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.bolg{
+    margin: 20px;
+    border: 10px solid tomato;
+box-shadow: 10px 10px 10px blueviolet;
+}
+.ccc{
+    border: 2px soild red;
+    display: block;
+    height: 30px;
+}
+.header{
+    height: 300px;
+    background-image: url(look.jpg) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
